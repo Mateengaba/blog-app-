@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="../css/style.css"></head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+      
+
+    <div class="registration form">
+        <header>Signup</header>
+        <form action="#">
+          <input type="text" id="fullName" placeholder="Enter your fullName">
+          <input type="text" id="email" placeholder="Enter your email">
+          <input type="text" id="gender" placeholder="Enter your gender">
+
+          <input type="password" id="password" placeholder="Enter your password">
+
+
+          <label for="file">Select Profile pic</label>
+          <input type="file" name="fileUpload" id="fileInput"/>
+          <input type="button" id="formSubmit" onclick="combinedSignUpHandler()" class="button" value="Signup">
+        </form>
+        <div class="signup">
+          <span class="signup">Already have an account?
+          <a href="./login.html"><label >Login</label></a> 
+          </span>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="../Javascript/signup.js"  type="module"></script>
+</html>

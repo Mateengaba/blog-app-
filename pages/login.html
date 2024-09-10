@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="../css/style.css"></head>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  
+<body>
+  <div class="container">
+  
+    <!-- login form -->
+    <div class="login form">
+      <header>Login</header>
+      <form action="#">
+        <input type="text" id="email" placeholder="Enter your email">
+        <input type="password" id="password" placeholder="Enter your password">
+        
+        <input onclick="loginHandler()" type="button" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+        <a href="./signup.html"> <label >Signup</label></a> 
+        </span>
+      </div>
+      <div class="signup">
+        <span class="signup">Back to Home Click!
+        <a href="../index.html"> <label >Home</label></a> 
+        </span>
+      </div>
+    </div>
+    <!-- login form end -->
+
+</body>
+<script src="../Javascript/login.js" type="module"></script>
+</html>
+
+
+
+
